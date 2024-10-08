@@ -18,5 +18,4 @@ int main(){
     else{
         printf("Out of Intervals\n");
     }
-    return 0;
 }

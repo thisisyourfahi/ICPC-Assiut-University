@@ -4,17 +4,14 @@ int main(){
     scanf("%d", &n);
 
     int years = n / 365;
-    n %= 365;
+    n = n % 365;
 
     int months = n / 30;
-    n %= 30;
-    
-    int days = n;
+    n = n % 30;
 
     printf("%d years\n", years);
     printf("%d months\n", months);
-    printf("%d days\n", days);
+    printf("%d days\n", n);
 
     return 0;
-
 }

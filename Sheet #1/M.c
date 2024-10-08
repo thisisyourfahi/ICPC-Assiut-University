@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main(){
-    char ch;
-    scanf("%c", &ch);
+    char c;
+    scanf("%c", &c);
 
-    if(ch >= 65 && ch <= 90){
+    if(c >= 65 && c <= 90){
         printf("ALPHA\nIS CAPITAL\n");
     }
-    else if(ch >= 97 && ch <= 122){
+    else if(c >= 97 && c <= 122){
         printf("ALPHA\nIS SMALL\n");
     }
-    else if(ch >= 48 && ch <= 57){
+    else if(c >= 48 && c <= 57){
         printf("IS DIGIT\n");
     }
 }
